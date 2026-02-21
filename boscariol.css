@@ -14,13 +14,13 @@
 --sidePicture-margin:[3rem 0 82];
 --sidePicture-marginTop:[1.5rem 0 82];
 /*Font*/
---fs0:[1.5rem 5.5vw 52];
---fs1:[2.5rem 4.5vw 52];
---fs2:[2rem 4vw 52];
---fs3:[1.5rem 3.5vw 52];
---fs4:[1.1rem 2.5vw 52];
---fs5:[1rem 2.4vw 52];
---fsb:[1.2rem 2.8vw 52];
+--fs0:[1.5rem 2.5rem 52];
+--fs1:[2.5rem 2rem 52];
+--fs2:[2rem 1.5rem 52];
+--fs3:[1.5rem 1.25rem 52];
+--fs4:[1.1rem 1.05rem 52];
+--fs5:[1rem 1rem 52];
+--fsb:[1.2rem 1.2rem 52];
 --fStyle1:"Newsreader";
 --fStyle2:"DM Serif Text";
 --fStyle3:"Schibsted Grotesk", sans-serif;
@@ -262,14 +262,14 @@ menu#menuMobile a{
     width: 88vw;
     height: 3rem;
     margin: .5rem;
-    font-size: 4.5vw;
+    font-size: 1.25rem;
     justify-content: flex-start;
 
 }
 
 menu#menuMobile a i{
 
-    font-size: 4.5vw;
+    font-size: 1.25rem;
 
 }
 
@@ -285,7 +285,7 @@ menu#menuMobile a i{
 #menuMobileBt i{
 
     z-index: 9999;
-    font-size: 6vw;
+    font-size: 2.25rem;
     color: var(--alt1);
 
 }
