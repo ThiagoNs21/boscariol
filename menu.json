@@ -1,0 +1,6 @@
+[
+{"menuIcon":"bi bi-house","menuItem":"home","menuItemId":"cover"},
+{"menuIcon":"bi bi-person","menuItem":"quem somos","menuItemId":"about_section"},
+{"menuIcon":"bi bi-tools","menuItem":"serviços","menuItemId":"services_section"},
+{"menuIcon":"bi bi-telephone","menuItem":"contatos","menuItemId":"footer"}
+]

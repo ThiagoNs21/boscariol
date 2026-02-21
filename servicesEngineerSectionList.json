@@ -1,0 +1,37 @@
+[
+
+{
+"listTitle":"Projetos",
+"listItem1":"Arquitetura (Plantas, cortes e fachada para aprovação)",
+"listItem2":"Executivo (Plantas, cortes, fachadas e quantitativo de materiais)",
+"listItem3":"Desenho Técnico (Projetos na arquitetura no design e na engenharia)",
+"listItem4":""
+},
+
+{
+"listTitle":"Cálculos",
+"listItem1":"Estrutural: concreto, metálico (Cálculo da resistência dos Materiais)",
+"listItem2":"Fundação: Geotécnico (Cálculo da capacidade de carga do solo)",
+"listItem3":"",
+"listItem4":""
+},
+
+
+{
+"listTitle":"Assessoria",
+"listItem1":"Direção Técnica (Acompanhamento e supervisão de obra)",
+"listItem2":"Administração de obra (Orçamentos, compras de materiais, contratação de mão de obra)",
+"listItem3":"Consultoria (Solução, esclarecimento e sugestão)",
+"listItem4":""
+},
+
+{
+"listTitle":"Regularização de Imóveis",
+"listItem1":"Residências (Aprovação, Habite-se, receita federal, cartório)",
+"listItem2":"Comércios / Indústrias (Aprovação, Habite-se, receita federal, cartório, bombeiros e CETESB)",
+"listItem3":"Imóveis Rurais (Granjas, reserva legal, outorga de poço artesiano)",
+"listItem4":""
+}
+
+
+]
