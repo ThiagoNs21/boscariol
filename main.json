@@ -18,6 +18,8 @@
 
 "training":"Formação",
 
+"trainingList":"({url:'trainingList.html',content:'trainingList.json'})",
+
 "trainingInfo1":"​Registro no CREA-SP",
 
 "trainingInfo2":"​Registro no CONFEA",
@@ -26,13 +28,19 @@
 
 "professionalBackgroundProject":"Projetos",
 
+"professionalBackgroundProjectList":"({url:'professionalBackgroundProjectList.html',content:'professionalBackgroundProjectList.json'})",
+
 "professionalBackgroundServiceExecution":"Execução de Serviços",
+
+"professionalBackgroundServiceExecutionList":"({url:'professionalBackgroundServiceExecutionList.html',content:'professionalBackgroundServiceExecutionList.json'})",
 
 "services":"Serviços",
 
 "servicesEngineer":"Engenharia",
 
 "servicesEngineerText":"A Boscariol Engenharia oferece serviços completos em projetos estruturais= (concreto, metálico, geotécnico), Regularizações e assessoria com mão de obra especializada, programas originais atualizados para melhor atende-lo.",
+
+"servicesEngineerSectionList":"({url:'servicesEngineerSectionList.html',content:'servicesEngineerSectionList.json'})",
 
 "imgEngineer":"project.avif",
 
@@ -45,6 +53,8 @@
 "servicesDrillingText2":"Perfuração com diâmetros de 20 a 70cm e profundidade de até 12 metros.",
 
 "servicesDrillingTitle":"Vantagens",
+
+"servicesDrillingSectionList":"({url:'servicesDrillingSectionList.html',content:'servicesDrillingSectionList.json'})",
 
 "servicesDrillingText3":"Perfuratriz hidráulica rotativa instalada sobre trator que torna muito ágil, prático e seguro nos mais diversos tipos de terreno."
 }]

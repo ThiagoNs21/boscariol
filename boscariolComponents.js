@@ -2,15 +2,11 @@
 let baseUrl = ""
 function execData(...data){
 for(let content of data){
-//compReload(`${content}.html`);
 execComp({id:`${content}`,url:`${baseUrl}${content}.html`,content:`${baseUrl}${content}.json`});
-//compReload(`${baseUrl}${content}.html`);
+
 }}
 
 execData("header","main","footer");
-execData("menu","servicesDrillingSectionList","servicesEngineerSectionList","trainingList","professionalBackgroundServiceExecutionList","professionalBackgroundProjectList");
-
-//compReload(`menu.html`);
 execComp({id:`menuMobile`,url:`${baseUrl}menu.html`,content:`${baseUrl}menu.json`});
 
 setTimeout(()=>{
