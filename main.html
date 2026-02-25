@@ -38,7 +38,7 @@
 <h1 class="subtitle"><i class="bi bi-gear"></i>{professionalBackground}</h1>
 
 <h2 class="topic">{professionalBackgroundProject}</h2>
-<ul>{professionalBackgroundProjectList}</ul>
+<div>{professionalBackgroundProjectList}</div>
 
 <h2 class="topic">{professionalBackgroundServiceExecution}</h2>
 <ul>{professionalBackgroundServiceExecutionList}</ul>
@@ -63,7 +63,14 @@
 </div>
 
 <div class="splitChild">
-<img class="sidePicture right" src="{imgEngineer}"/>
+
+<div class="imgScroll">   
+<button class="directionalArrow left galleryLeftBt" type="button"><i class="bi bi-caret-left-fill"></i></button>
+<nav class="sidePicture right gallery" style="background-image:linear-gradient(var(--imgCover)),url({imgEngineer});"></nav>
+<button class="directionalArrow right galleryRightBt" type="button"><i class="bi bi-caret-right-fill"></i></button>
+<legend class="legend text">{imgEngineerLegend}</legend>
+</div>
+
 </div>
 
 </nav>
@@ -71,7 +78,14 @@
 <nav class="split">
 
 <div class="splitChild">
-<img class="sidePicture left" src="{imgDrilling}"/>
+
+<div class="imgScroll">   
+<button class="directionalArrow left galleryLeftBt" type="button"><i class="bi bi-caret-left-fill"></i></button>
+<nav class="sidePicture left gallery" style="background-image:linear-gradient(var(--imgCover)),url({imgDrilling});"></nav>
+<button class="directionalArrow right galleryRightBt" type="button"><i class="bi bi-caret-right-fill"></i></button>
+<legend class="legend text">{imgDrillingLegend}</legend>
+</div>
+
 </div>
 
 <div class="splitChild">
@@ -80,8 +94,10 @@
 <p class="text">{servicesDrillingText2}</p>
 <h2 class="topic">{servicesDrillingTitle}</h2>
 <ul>{servicesDrillingSectionList}</ul>
+<br style="margin-top: 1rem;">
 <p class="text">{servicesDrillingText3}</p>
 </div>
 
 </nav>
+
 </section>

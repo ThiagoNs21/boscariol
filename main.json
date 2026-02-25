@@ -38,23 +38,28 @@
 
 "servicesEngineer":"Engenharia",
 
-"servicesEngineerText":"A Boscariol Engenharia oferece serviços completos em projetos estruturais= (concreto, metálico, geotécnico), Regularizações e assessoria com mão de obra especializada, programas originais atualizados para melhor atende-lo.",
+"servicesEngineerText":"A Boscariol Engenharia oferece serviços completos em projetos estruturais, abrangendo estruturas de concreto armado, estruturas metálicas e projetos geotécnicos, além de regularizações técnicas e assessoria especializada. Atuamos com mão de obra qualificada e softwares técnicos originais e constantemente atualizados, garantindo precisão, confiabilidade e as melhores soluções para atender às necessidades de cada cliente.",
 
 "servicesEngineerSectionList":"({url:'servicesEngineerSectionList.html',content:'servicesEngineerSectionList.json'})",
 
-"imgEngineer":"project.avif",
+"imgEngineer":"image/project0.jpeg",
 
-"imgDrilling":"drill.avif",
+"imgEngineerLegend":"Alguns de nossos projetos",
+
+"imgDrilling":"image/drill0.jpeg",
+
+"imgDrillingLegend":"Perfuratriz hidráulica rotativa",
 
 "servicesDrilling":"Perfuração e execução de fundações",
 
-"servicesDrillingText1":"A Boscariol Engenharia oferece serviço de perfuração de solo, com equipamento moderno e mão de obra qualificada.",
+"servicesDrillingText1":"A Boscariol Engenharia oferece serviços de perfuração de solo, executados com equipamentos modernos e mão de obra especializada, garantindo eficiência, segurança e qualidade técnica.",
 
-"servicesDrillingText2":"Perfuração com diâmetros de 20 a 70cm e profundidade de até 12 metros.",
+"servicesDrillingText2":"Realizamos perfurações com diâmetros de 20 a 70 cm, alcançando profundidades de até 12 metros, atendendo às exigências técnicas de cada projeto.",
 
 "servicesDrillingTitle":"Vantagens",
 
 "servicesDrillingSectionList":"({url:'servicesDrillingSectionList.html',content:'servicesDrillingSectionList.json'})",
 
-"servicesDrillingText3":"Perfuratriz hidráulica rotativa instalada sobre trator que torna muito ágil, prático e seguro nos mais diversos tipos de terreno."
+"servicesDrillingText3":"Contamos com perfuratriz hidráulica rotativa instalada sobre trator, o que proporciona maior agilidade, praticidade e segurança operacional, permitindo atuação eficiente nos mais diversos tipos de terreno."
+
 }]
