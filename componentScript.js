@@ -44,9 +44,9 @@ let replaces = component;
   !list[property].includes("({")?
   replaces.replaceAll(`{${property}}`,list[property]):
   replaces.replaceAll(`{${property}}`,await eval(`execComp(${list[property].replaceAll("({","{").replaceAll("})","}")})`))
-
+/*
   if(list[property].includes("({"))
-  console.log(await eval(`execComp(${list[property].replaceAll("({","{").replaceAll("})","}")})`))
+  console.log(await eval(`execComp(${list[property].replaceAll("({","{").replaceAll("})","}")})`))*/
 };
 
 text += replaces;

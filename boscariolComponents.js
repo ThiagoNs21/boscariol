@@ -63,10 +63,8 @@ function gallery(){
 
 };
 
-gallery()
-
-console.log(__gallery)
+gallery();
 
 
-},2000);
+},3000);
 })();
