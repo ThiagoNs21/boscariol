@@ -1,4 +1,16 @@
-execComp({id:`menuMobile`,url:`menu.html`,content:`menu.json`});
+(()=>{
+let baseUrl = ""
+function execData(...data){
+for(let content of data){
+execComp({id:`${content}`,url:`${baseUrl}${content}.html`,content:`${baseUrl}${content}.json`});
+
+}}
+execData("header","main","footer");
+execComp({id:`menuMobile`,url:`${baseUrl}menu.html`,content:`${baseUrl}menu.json`});
+
+
+})();
+
 
 window.closesMenu = function(){
 
