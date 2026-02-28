@@ -38,10 +38,10 @@
 <h1 class="subtitle"><i class="bi bi-gear"></i>{professionalBackground}</h1>
 
 <h2 class="topic">{professionalBackgroundProject}</h2>
-<div>{professionalBackgroundProjectList}</div>
+<div data-comp="url:'professionalBackgroundProjectList.html',content:'professionalBackgroundProjectList.json'"></div>
 
 <h2 class="topic">{professionalBackgroundServiceExecution}</h2>
-<ul>{professionalBackgroundServiceExecutionList}</ul>
+<ul data-comp="url:'professionalBackgroundServiceExecutionList.html',content:'professionalBackgroundServiceExecutionList.json'"></ul>
 
 </div>
 
@@ -59,7 +59,7 @@
 <nav class="split">
 
 <div class="splitChild">
-<nav>{servicesEngineerSectionList}</nav>
+<nav data-comp="url:'servicesEngineerSectionList.html',content:'servicesEngineerSectionList.json',func:postLoad"></nav>
 </div>
 
 <div class="splitChild">
@@ -93,7 +93,9 @@
 <p class="text">{servicesDrillingText1}</p>
 <p class="text">{servicesDrillingText2}</p>
 <h2 class="topic">{servicesDrillingTitle}</h2>
-<ul>{servicesDrillingSectionList}</ul>
+
+<ul data-comp="url:'servicesDrillingSectionList.html',content:'servicesDrillingSectionList.json',func:gallery"></ul>
+
 <br style="margin-top: 1rem;">
 <p class="text">{servicesDrillingText3}</p>
 </div>

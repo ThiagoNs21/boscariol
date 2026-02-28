@@ -1,5 +1,5 @@
 [{
     "logo":"logo.jpeg",
     "menu":"({url:'menu.html',content:'menu.json'})",
-    "menuMobile":"({url:'menu.html',content:'menu.json'})"
+    "menuMobile":"({url:'menu.html',content:'menu.json',func:runMenu})"
 }]

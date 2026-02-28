@@ -28,19 +28,13 @@
 
 "professionalBackgroundProject":"Projetos",
 
-"professionalBackgroundProjectList":"({url:'professionalBackgroundProjectList.html',content:'professionalBackgroundProjectList.json'})",
-
 "professionalBackgroundServiceExecution":"Execução de Serviços",
-
-"professionalBackgroundServiceExecutionList":"({url:'professionalBackgroundServiceExecutionList.html',content:'professionalBackgroundServiceExecutionList.json'})",
 
 "services":"Serviços",
 
 "servicesEngineer":"Engenharia",
 
 "servicesEngineerText":"A Boscariol Engenharia oferece serviços completos em projetos estruturais, abrangendo estruturas de concreto armado, estruturas metálicas e projetos geotécnicos, além de regularizações técnicas e assessoria especializada. Atuamos com mão de obra qualificada e softwares técnicos originais e constantemente atualizados, garantindo precisão, confiabilidade e as melhores soluções para atender às necessidades de cada cliente.",
-
-"servicesEngineerSectionList":"({url:'servicesEngineerSectionList.html',content:'servicesEngineerSectionList.json'})",
 
 "imgEngineer":"image/project0.jpeg",
 
@@ -57,8 +51,6 @@
 "servicesDrillingText2":"Realizamos perfurações com diâmetros de 20 a 70 cm, alcançando profundidades de até 12 metros, atendendo às exigências técnicas de cada projeto.",
 
 "servicesDrillingTitle":"Vantagens",
-
-"servicesDrillingSectionList":"({url:'servicesDrillingSectionList.html',content:'servicesDrillingSectionList.json'})",
 
 "servicesDrillingText3":"Contamos com perfuratriz hidráulica rotativa instalada sobre trator, o que proporciona maior agilidade, praticidade e segurança operacional, permitindo atuação eficiente nos mais diversos tipos de terreno."
 

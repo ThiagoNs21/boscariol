@@ -1,23 +1,4 @@
-(()=>{
-let baseUrl = ""
-function execData(...data){
-for(let content of data){
-execComp({id:`${content}`,url:`${baseUrl}${content}.html`,content:`${baseUrl}${content}.json`});
-
-}}
-
-execData("header","main","footer");
-execComp({id:`menuMobile`,url:`${baseUrl}menu.html`,content:`${baseUrl}menu.json`});
-
-setTimeout(()=>{
-for(let listItem of document.querySelectorAll(".listItem")){listItem.innerText==""?listItem.style.display="none":null;console.log(listItem.innerText)}
-document.getElementById("main").style.display="flex";
-document.getElementById("footer").style.display="flex";
-
-ref("#menuMobileBt");
-ref("#menuMobile");
-ref("#menuBtOpen");
-ref("#menuBtClose");
+execComp({id:`menuMobile`,url:`menu.html`,content:`menu.json`});
 
 window.closesMenu = function(){
 
@@ -25,6 +6,7 @@ window.closesMenu = function(){
 
 }
 
+function runMenu(){
 let menuKey = false
 $menuMobileBt.addEventListener("click",()=>{
 
@@ -34,10 +16,8 @@ $menuMobileBt.addEventListener("click",()=>{
     }
 
 });
-//image/project0.jpeg
-ref(".gallery");
-ref(".galleryLeftBt")
-ref(".galleryRightBt")
+}
+
 
 let galleryList = [{ref:"project",max:10},{ref:"drill",max:5}];
 
@@ -59,12 +39,14 @@ function gallery(){
 
         __galleryLeftBt[index].addEventListener("click",()=>{galleryCounter--;galleryChangeIMage(index)});
         __galleryRightBt[index].addEventListener("click",()=>{galleryCounter++;galleryChangeIMage(index)});
-    }
+    };
 
 };
 
-gallery();
+function postLoad(){
+for(let listItem of document.querySelectorAll(".listItem")){listItem.innerText==""?listItem.style.display="none":null;}
+document.getElementById("main").style.display="flex";
+document.getElementById("footer").style.display="flex";
 
+}
 
-},3000);
-})();
